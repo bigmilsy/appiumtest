@@ -80,15 +80,18 @@ public class EntryTest {
             
             //First, the email type needs to be selected
             EntryPage entryPage = new EntryPage(driver);
+            entryPage.assertPage();
             entryPage.clickYandexMail();
             
             //Enter in the username and click Next
             LoginPage loginPage = new LoginPage(driver);
+            loginPage.assertPage();
             loginPage.typeUsername(testData.username);
             loginPage.clickNext();
             
             //Enter in the password and click Sign In
             PasswordPage passwordPage = new PasswordPage(driver);
+            passwordPage.assertPage();
             passwordPage.typePassword(testData.password);
             passwordPage.clickSignIn();
             
