@@ -11,7 +11,9 @@ package com.mycompany.appiumyandexmail;
  */
 public class TestData {
     public String username;
+    public String password;
     public TestData() {
         username = "mybeepertest@yandex.com";
+        password = "purplehorse34";
     }
 }
