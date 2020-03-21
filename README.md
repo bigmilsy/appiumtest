@@ -18,3 +18,4 @@ Each of the pages within the com.mycomapny.pages package contains a .java file f
 **App Used:** Yandex.Mail: A simple application that allows for login into a yandex email server.<br /><br />
 ## App Screen Shots
 Click [here](https://github.com/bigmilsy/appiumtest/blob/master/testScreenShots.png)
+![App Screen Shots](https://github.com/bigmilsy/appiumtest/blob/master/testScreenShots.png)
