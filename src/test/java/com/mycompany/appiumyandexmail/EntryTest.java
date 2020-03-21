@@ -34,39 +34,6 @@ public class EntryTest {
     public TestData testData;
     public EntryTest() {
     }
-    
-    @BeforeClass
-    public static void setUpClass() {
-    }
-    
-    @AfterClass
-    public static void tearDownClass() {
-    }
-    
-    @Before
-    public void setUp() {
-        //Setup test data
-        testData = new TestData();
-        //These are the main appium settings that are used to connect to both the device and the
-        //app that is to be tested. 
-        caps = new DesiredCapabilities();
-        caps.setCapability("deviceName", "My Phone");
-        caps.setCapability("udid", "ce08171813a36e3e027e"); //Device ID from adb devices
-        caps.setCapability("platformName", "Android");
-        caps.setCapability("platformVersion", "9.0");
-        caps.setCapability("appPackage", "ru.yandex.mail");
-        caps.setCapability("appActivity", "ru.yandex.mail.ui.LoginActivity");
-        caps.setCapability("noReset", "true");
-        caps.setCapability("automationName", "UiAutomator1");
-    }
-    
-    @After
-    public void tearDown() {
-    }
-
-    /**
-     * Test of main method, of class Entry.
-     */
     @Test
     public void testMain() {
 /*
@@ -100,6 +67,33 @@ public class EntryTest {
         } catch (IOException e) {
             System.out.println(e.getMessage());            
         }         
+    }    
+    @BeforeClass
+    public static void setUpClass() {
     }
     
+    @AfterClass
+    public static void tearDownClass() {
+    }
+    
+    @Before
+    public void setUp() {
+        //Setup test data
+        testData = new TestData();
+        //These are the main appium settings that are used to connect to both the device and the
+        //app that is to be tested. 
+        caps = new DesiredCapabilities();
+        caps.setCapability("deviceName", "My Phone");
+        caps.setCapability("udid", "ce08171813a36e3e027e"); //Device ID from adb devices
+        caps.setCapability("platformName", "Android");
+        caps.setCapability("platformVersion", "9.0");
+        caps.setCapability("appPackage", "ru.yandex.mail");
+        caps.setCapability("appActivity", "ru.yandex.mail.ui.LoginActivity");
+        caps.setCapability("noReset", "true");
+        caps.setCapability("automationName", "UiAutomator1");
+    }
+    
+    @After
+    public void tearDown() {
+    }    
 }
