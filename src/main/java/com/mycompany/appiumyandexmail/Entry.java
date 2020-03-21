@@ -11,6 +11,6 @@ package com.mycompany.appiumyandexmail;
  */
 public class Entry {
     public static void main(String[] args) {
-        System.out.println("Dale was here");
+        System.out.println("Just a simple class");
     }    
 }
