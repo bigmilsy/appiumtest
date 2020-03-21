@@ -2,7 +2,7 @@
 ## Introduction
 Several technologies are needed in order to effectively use test automation against mobile phone devices. As suggested, Appium has been selected as the main tool to use for test automation where android has been selected as the operating system to be tested. The Yandex.Mail app, found in google play store, was used to test against.
 ## Main Files
-
+**[EntryTest.java](https://github.com/bigmilsy/appiumtest/blob/master/src/test/java/com/mycompany/appiumyandexmail/EntryTest.java)**
 ## Technology Stack
 **NetBeans 8.2:** The main IDE used for this appium android testing is NetBeans. NetBeans is a free download and is developed by Apache. NetBeans allows for more simple creation of software, particularly when developing test scripts.
 **Java 1.8:** The programming language selected for building the appium test is Java. Java allows for simple integration with the appium libraries as well as providing the JUnit testing framework.<br /><br />
