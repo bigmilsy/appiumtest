@@ -16,6 +16,7 @@ Each of the pages within the com.mycomapny.pages package contains a .java file f
 **Android:** The android operating system was selected to execute automated test against, running an a galaxy S8 note mobile phone.<br /><br />
 **Appium & WebDriver:** The main driver of the automation tests, the Appium server allows for the connection between android studio and Selenium WebDriver. This means that common commands that are available within the web driver technologies, such as finding web elements and controlling these element, can be re-used for automation against mobile phone apps running on android. The downloadable appium class libraries also contain the Selenium WebDriver components with the maven build automation tool allowing for easy importing into the test automation code.<br /><br />
 **App Used:** Yandex.Mail: A simple application that allows for login into a yandex email server.<br /><br />
-## App Screen Shots
+## Screen Shots
 Click [here](https://github.com/bigmilsy/appiumtest/blob/master/testScreenShots.png)
 ![App Screen Shots](https://github.com/bigmilsy/appiumtest/blob/master/testScreenShots.png)
+![IDE Screen Shots](https://github.com/bigmilsy/appiumtest/blob/master/IDEScreenShot.png)
